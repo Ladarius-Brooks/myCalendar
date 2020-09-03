@@ -1,0 +1,19 @@
+
+
+.parent-container
+{
+    display: flex;
+    height: 100;
+}
+
+.side {
+    flex: 1;
+}
+
+.content{
+    flex: 1;
+}
+
+.details{
+    flex: 1;
+}
