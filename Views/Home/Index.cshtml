@@ -3,12 +3,39 @@
 }
 
 @section Styles {
-    <link href="/css/todo.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/todo.css">
+    <link href="/lib/fontawesome-free-5.14.0-web/css/all.css" rel="stylesheet" >
 }
 <!-- emmet -->
 <div class="parent-container">
-    <div class="side">Menu</div>
-    <div class="content">Content</div>
-    <div class="details">Create New</div>
+
+    <div class="content">
+        <h4>My Tasks</h4>
+
+        <div id="tasks" class="section-tasks">
+            
+        </div>
+    </div>
+    <div class="details">
+        <div class="details-section">
+            <input id="txtTitle" type="text" placeholder="Task Title">
+        </div>
+
+        <div class="details-section">
+            <label for="chkImportant">Important</label>
+            <input id="chkImportant" type="checkbox">
+        </div>
+
+        <div class="details-section">
+            <textarea id="txtNotes" placeholder="Notes" rows="6"></textarea>
+        </div>
+       
+        <div class="details-section">
+            <button id="btnSave" class="btn btn-info">Save Task</button>
+        </div>
+    </div>
 </div>
 
+@section Scripts{
+    <script src="/js/calendar.js"></script>
+}

@@ -1,5 +1,4 @@
 
-
 .parent-container
 {
     display: flex;
@@ -12,6 +11,8 @@
 
 .content{
     flex: 1;
+    background-color: aqua;
+    padding: 5rem;
 }
 
 .details{
@@ -19,11 +20,6 @@
 }
 
 /*
-
-change 2
-    To Check
-    -Flexbox css
-    -Git with vs code
 
     To push
     -add a message
